@@ -2,7 +2,7 @@
 
 A Power BI dashboard analyzing **16,506 orders** from a flower shop chain with **10 branches in 6 Saudi cities** (January 2024 – September 2026). It looks at sales growth, seasonality, discounts, sales channels, delivery performance, and customer satisfaction, and ends with clear recommendations for the business.
 
-![Overview](images/overview.png)
+![Overview](screenshots/overview.png)
 
 ---
 
@@ -95,7 +95,7 @@ DIVIDE(
 
 | Occasions & Products | Channels & Customers |
 |---|---|
-| ![Occasions & Products](images/occasions_products.png) | ![Channels & Customers](images/channels_customers.png) |
+| ![Occasions & Products](screenshots/occasions_products.png) | ![Channels & Customers](screenshots/channels_customers.png) |
 
 ---
 
@@ -172,9 +172,7 @@ Orders delivered on time are rated **4.3**, while late orders are rated only **2
 ├── README.md
 ├── data/
 │   └── saudi_flower_shop_sales.csv
-├── theme/
-│   └── pastel_pro_plus_theme.json
-└── images/
+└── screenshots/
     ├── overview.png
     ├── occasions_products.png
     └── channels_customers.png
